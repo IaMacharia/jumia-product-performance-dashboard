@@ -121,7 +121,7 @@ Thefollowing metrics were calculated:
 - Total Reviews
 * Maximum and Minimum Prices
 
-### Correlation Analysis
+orrelation Analysis
 
 Pearson*Correlation was used to determine*relationships between:
 
@@ -149,41 +149,41 @@ Ranked tables were*created to identify:
 
 ---
 
-## Dashboard features
+Dashboard features
 
 The dashboard includes:
 
-*## KPI Cards
+KPI Cards
 
 - Total Products
-- A*erage Rating
+- Average Rating
 - Average Discount (%)
 - Total Reviews
 
-### Visualizations
+Visualizations
 
-#### Product Distribution by Price Category
+Product Distribution by Price Category
 Shows the number of products in each pricing segment.
 
-##*# Product Distribution by Discount Category
+Product Distribution by Discount Category
 Displays discount patterns across products.
 
-#### Rating Distribution
+Rating Distribution
 Highlights product qualit* trends.
 
-#### Top Rated Products
+op Rated Products
 Ranks products based on customer ratings.
 
-####*Most Reviewed Products
+Most Reviewed Products
 Identifies products with the highest customer engagement.
 
-#### Discount vs Revie*s Scatter Plot
+Discount vs Revie*s Scatter Plot
 Visualizes the rela*ionship between discounts and reviews.
 
-#### Rating vs Reviews Scatte* Plot
+Rating vs Reviews Scatte* Plot
 Shows how ratings influence customer engagement.
 
-### Interactive Features
+Interactive Features
 
 - Slicers for easy fil*ering
 - Dynamic Pivot Tables
@@ -191,21 +191,21 @@ Shows how ratings influence customer engagement.
 
 ---
 
-## Key Findings
+Key Findings
 
-### Pricing Insights
+Pricing Insights
 - Most products fall within the medium-price category.
 - High-priced products represent a smaller share of the catalogue.
 
-###*Discount Insights
+Discount Insights
 - Products with larger discounts generally attracts more customer attention.
 - Some hi*hly discounted products still receive poor ratings.
 
-### Customer Engagement
+ustomer Engagement
 - Products with higher review counts are generally better known among customers.
 - Customer reviews provide a useful indicator of product popularity.
 
-### Product Performance
+Product Performance
 - Several products achieved*excellent ratings while maintainin* competitive pricing.
 - Certain pr*ducts require quality improvements*despite aggressive discounting.
 
