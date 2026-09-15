@@ -1,2 +1,275 @@
 # jumia-product-performance-dashboard
-An Excel-based data analytics project that analyzes Jumia product performance using data cleaning, descriptive statistics, pivot tables, charts, and an interactive dashboard to uncover insights on pricing, discounts, ratings, and customer engagement.
+# Jumia Product Performance Dashboard
+
+## Project Overview
+
+This project analyzes product performance data from Jumia and presents insights through an interactive Excel dashboard. The objective is to transform raw product data into meaningful business insights by performing data cleaning, analysis, and visualization using Microsoft Excel.
+
+The dashboard enables users to evaluate product pricing, discounts, customer engagement, and ratings to identify top-performing products and areas for improvement.
+
+---
+
+## Project Objectives
+
+The project aims to:
+
+- Analyze product pricing and discount strategies.
+- Evaluate customer engagement through reviews and ratings.
+- Identify top-performing and underperforming products.
+- Explore relationships between discounts, ratings, and reviews.
+- Create an interactive dashboard for decision-making.
+
+---
+
+## Dataset Description
+
+The dataset contains product information collected from Jumia, including:
+
+| Column | Description |
+|----------|------------|
+| Product Name | Name of the product |
+| Current Price | Current selling price |
+| Old Price | Original price before discount |
+| Absolute Discount | Difference between old and current price |
+| Discount (%) | Percentage discount offered |
+| Reviews | Number of customer reviews |
+| Ratings | Product rating score |
+| Price Category | Low, Medium, or High price classification |
+| Discount Category | Low, Medium, or High discount classification |
+| Rating Category | Poor, Average, or Excellent classification |
+
+---
+
+## Tools Used
+
+- **Microsoft Excel**
+  - Data Cleaning
+  - Pivot Tables
+  - Pivot Charts
+  - Scatter Plots
+  - Dashboard Design
+  - Statistical Analysis
+  - Formulas and Functions
+
+- **GitHub**
+  - Version control
+  - Project documentation
+
+---
+
+## Data Cleaning Process
+
+Several data quality issues were addressed before analysis:
+
+### 1. Missing Values
+- Checked for blank cells.
+- Removed or handled incomplete records where necessary.
+
+### 2. Data Type Validation
+- Ensured prices and discounts were stored as numeric values.
+- Confirmed ratings and review counts used appropriate formats.
+
+### 3. Derived Columns Created
+
+#### Absolute Discount
+
+```excel
+=Old Price - Current Price
+```
+
+#### Discount Percentage
+
+```excel
+=(Absolute Discount/Old Price)*100
+```
+
+#### Price Category
+
+Products were classified using Quartiles:
+
+```excel
+=IF(Current*rice<=Q1,"Low Price",
+IF(CurrentPr*ce<=Q3,"Medium Price",
+"High Price*))
+```
+
+#### Discount Category
+
+``*excel
+=IF(Discount%<=Q1,"Low Disco*nt",
+IF(Discount*<=Q3,"Medium Discount",
+"High Disc*unt"))
+```
+
+#### Rating Category
+
+*``excel*=IF*Rating<3,"Poor",
+IF(Rating<=4.5,"A*erage",
+"Excellent"))
+```
+
+---
+
+##*Analysis Performed
+
+### Descriptiv* Statistics
+
+The*following metrics were calculated:*
+- Average Price
+- Average Discoun*
+- Average Rating
+- Total Reviews
+* Maximum and Minimum Prices
+
+### C*rrelation Analysis
+
+Pearson*Correlation was used to determine*relationships between:
+
+```excel
+=*ORREL(Discount Range, Reviews Rang*)
+```
+
+```excel
+=CORREL(Rating Ran*e, Reviews Range)
+```
+
+*``excel
+=CORREL*Discount Range, Rating Range)
+```
+*Scatter plots were used to visuali*e these relationships.
+
+### Top Pr*ducts Analysis
+
+Ranked tables were*created to identify:
+
+- Top 5 high*st-rated products
+- Top 5 most-rev*ewed products
+- Products with larg* discounts
+- High-discount but low*rated products
+
+---
+
+## Dashboard *eatures
+
+The dashboard includes:
+
+*## KPI Cards
+
+- Total Products
+- A*erage Rating
+- Average Discount (%*
+- Total Reviews
+
+### Visualizatio*s
+
+#### Product Distribution by Pr*ce Category
+Shows the number of pr*ducts in each pricing segment.
+
+##*# Product Distribution by Discount*Category
+Displays discount pattern* across products.
+
+#### Rating Dis*ribution
+Highlights product qualit* trends.
+
+#### Top Rated Products
+*anks products based on customer ra*ings.
+
+####*Most Reviewed Products
+Identifies *roducts with the highest customer *ngagement.
+
+#### Discount vs Revie*s Scatter Plot
+Visualizes the rela*ionship between discounts and revi*ws.
+
+#### Rating vs Reviews Scatte* Plot
+Shows how ratings influence *ustomer engagement.
+
+### Interacti*e Features
+
+- Slicers for easy fil*ering
+- Dynamic Pivot Tables
+- Dyn*mic Pivot Charts
+
+---
+
+## Key Find*ngs
+
+### Pricing Insights
+- Most p*oducts fall within the medium-pric* category.
+- High-priced products *epresent a smaller share of the ca*alogue.
+
+###*Discount Insights
+- Products with*larger discounts generally attract*more customer attention.
+- Some hi*hly discounted products still rece*ve poor ratings.
+
+### Customer Eng*gement
+- Products with higher revi*w counts are generally better know* among customers.
+- Customer revie*s provide a useful indicator of pr*duct popularity.
+
+### Product Perf*rmance
+- Several products achieved*excellent ratings while maintainin* competitive pricing.
+- Certain pr*ducts require quality improvements*despite aggressive discounting.
+
+*--
+
+## Recommendations
+
+1.*Prioritize products with high rati*gs and strong customer engagement.*2. Review products receiving poor *atings despite large discounts.
+3.*Use discounts strategically rather*than relying solely on price reduc*ions.
+4. Focus marketing efforts o* products with strong customer fee*back.
+5. Continuously monitor cust*mer reviews to identify improvemen* opportunities.
+
+---
+
+## Limitatio*s
+
+- Analysis is limited to the av*ilable dataset.
+- Customer demogra*hics were not included.
+- Product *ategories were not analyzed separa*ely.
+- Findings may change as prod*ct prices and reviews are updated.*
+---
+
+## File Structure
+
+```text
+j*mia-product-performance-dashboard/*│
+├── README.md
+│
+├── data/
+│   └─* Jumia Finals.xlsx
+│
+├── dashboard*
+│   └── Jumia_Product_Dashboard.x*sx
+│
+└── images/
+    ├── dashboard*png
+    ├*─ scatterplot-price*rating.png
+   *└── pivotcharts.png
+```
+
+*--
+
+## How to Open and Use the Wor*book
+
+1. Download the Excel workbo*k.
+2. Open the file using Microsof* Excel 2016 or later.
+3. Navigate *o the Dashboard sheet.
+4. Use slic*rs and filters to explore the data*
+5. Review charts and KPIs for insights.
+6. Refer to the Analysis sheet for calculations and supporting statistics.
+
+---
+
+## Author
+
+**Ian Macharia Mwangi**  
+ICT Support Agent
+
+GitHub: *(Add your GitHub profile link here)*
+
+---
+
+## Project Status
+
+✅ Completed
+
+This project demonstrat*s practical data cleaning, Excel a*alytics, dashboard development, an* business intelligence reporting s*ills using product performance dat*.
