@@ -116,7 +116,7 @@ IF(Rating<=4.5,"A*erage",
 
 The*following metrics were calculated:*
 - Average Price
-- Average Discoun*
+- Average Discount
 - Average Rating
 - Total Reviews
 * Maximum and Minimum Prices
@@ -126,7 +126,7 @@ The*following metrics were calculated:*
 Pearson*Correlation was used to determine*relationships between:
 
 ```excel
-=*ORREL(Discount Range, Reviews Rang*)
+=CORREL(Discount Range, Reviews Rang)
 ```
 
 ```excel
@@ -134,7 +134,7 @@ Pearson*Correlation was used to determine*relationships between:
 ```
 
 *``excel
-=CORREL*Discount Range, Rating Range)
+=CORREL(Discount Range, Rating Range)
 ```
 *Scatter plots were used to visuali*e these relationships.
 
@@ -143,9 +143,9 @@ Pearson*Correlation was used to determine*relationships between:
 Ranked tables were*created to identify:
 
 - Top 5 high*st-rated products
-- Top 5 most-rev*ewed products
+- Top 5 most-reviewed products
 - Products with larg* discounts
-- High-discount but low*rated products
+- High-discount but low rated products
 
 ---
 
@@ -162,48 +162,48 @@ The dashboard includes:
 
 ### Visualizatio*s
 
-#### Product Distribution by Pr*ce Category
-Shows the number of pr*ducts in each pricing segment.
+#### Product Distribution by Price Category
+Shows the number of products in each pricing segment.
 
-##*# Product Distribution by Discount*Category
-Displays discount pattern* across products.
+##*# Product Distribution by Discount Category
+Displays discount patterns across products.
 
 #### Rating Dis*ribution
 Highlights product qualit* trends.
 
 #### Top Rated Products
-*anks products based on customer ra*ings.
+*anks products based on customer ratings.
 
 ####*Most Reviewed Products
-Identifies *roducts with the highest customer *ngagement.
+Identifies products with the highest customer engagement.
 
 #### Discount vs Revie*s Scatter Plot
-Visualizes the rela*ionship between discounts and revi*ws.
+Visualizes the rela*ionship between discounts and reviews.
 
 #### Rating vs Reviews Scatte* Plot
-Shows how ratings influence *ustomer engagement.
+Shows how ratings influence customer engagement.
 
 ### Interacti*e Features
 
 - Slicers for easy fil*ering
 - Dynamic Pivot Tables
-- Dyn*mic Pivot Charts
+- Dynamic Pivot Charts
 
 ---
 
 ## Key Find*ngs
 
 ### Pricing Insights
-- Most p*oducts fall within the medium-pric* category.
-- High-priced products *epresent a smaller share of the ca*alogue.
+- Most products fall within the medium-price category.
+- High-priced products represent a smaller share of the catalogue.
 
 ###*Discount Insights
-- Products with*larger discounts generally attract*more customer attention.
-- Some hi*hly discounted products still rece*ve poor ratings.
+- Products with larger discounts generally attracts more customer attention.
+- Some hi*hly discounted products still receive poor ratings.
 
 ### Customer Eng*gement
-- Products with higher revi*w counts are generally better know* among customers.
-- Customer revie*s provide a useful indicator of pr*duct popularity.
+- Products with higher review counts are generally better known among customers.
+- Customer reviews provide a useful indicator of product popularity.
 
 ### Product Perf*rmance
 - Several products achieved*excellent ratings while maintainin* competitive pricing.
@@ -213,10 +213,10 @@ Shows how ratings influence *ustomer engagement.
 
 ## Recommendations
 
-1.*Prioritize products with high rati*gs and strong customer engagement.*2. Review products receiving poor *atings despite large discounts.
+1.*Prioritize products with high ratings and strong customer engagement.*2. Review products receiving poor ratings despite large discounts.
 3.*Use discounts strategically rather*than relying solely on price reduc*ions.
-4. Focus marketing efforts o* products with strong customer fee*back.
-5. Continuously monitor cust*mer reviews to identify improvemen* opportunities.
+4. Focus marketing efforts on products with strong customer feedback.
+5. Continuously monitor cust*mer reviews to identify improvement opportunities.
 
 ---
 
@@ -231,19 +231,19 @@ Shows how ratings influence *ustomer engagement.
 ## File Structure
 
 ```text
-j*mia-product-performance-dashboard/*│
+jumia-product-performance-dashboard/*│
 ├── README.md
 │
 ├── data/
-│   └─* Jumia Finals.xlsx
+│   └─* Excel_jumia_data.csv
 │
 ├── dashboard*
-│   └── Jumia_Product_Dashboard.x*sx
+│   └── Jumia Finals.xlsx
 │
 └── images/
-    ├── dashboard*png
-    ├*─ scatterplot-price*rating.png
-   *└── pivotcharts.png
+    ├── DashBoard.png
+    ├*─ Raw_Data.png
+   *└── Cleaned_Data.png
 ```
 
 *--
@@ -253,7 +253,7 @@ j*mia-product-performance-dashboard/*│
 1. Download the Excel workbo*k.
 2. Open the file using Microsof* Excel 2016 or later.
 3. Navigate *o the Dashboard sheet.
-4. Use slic*rs and filters to explore the data*
+4. Use slicers and filters to explore the data*
 5. Review charts and KPIs for insights.
 6. Refer to the Analysis sheet for calculations and supporting statistics.
 
@@ -272,4 +272,4 @@ GitHub: *(Add your GitHub profile link here)*
 
 ✅ Completed
 
-This project demonstrat*s practical data cleaning, Excel a*alytics, dashboard development, an* business intelligence reporting s*ills using product performance dat*.
+This project demonstrates practical data cleaning, Excel analytics, dashboard development, and business intelligence reporting skills using product performance data.
