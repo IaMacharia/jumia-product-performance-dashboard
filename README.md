@@ -1,5 +1,5 @@
 # jumia-product-performance-dashboard
-# Jumia Product Performance Dashboard
+
 
 ## Project Overview
 
@@ -103,7 +103,7 @@ IF(Discount*<=Q3,"Medium Discount",
 
 Rating Category
 
-*``excel*=IF (Rating<3,"Poor",
+*``=IF (Rating<3,"Poor",
 IF(Rating<=4.5,"Average",
 "Excellent"))
 ```
@@ -185,7 +185,7 @@ Shows how ratings influence customer engagement.
 
 Interactive Features
 
-- Slicers for easy fil*ering
+- Slicers for easy filtering
 - Dynamic Pivot Tables
 - Dynamic Pivot Charts
 
