@@ -121,7 +121,7 @@ Thefollowing metrics were calculated:
 - Total Reviews
 * Maximum and Minimum Prices
 
-orrelation Analysis
+Correlation Analysis
 
 Pearson Correlation was used to determine relationships between:
 
@@ -177,8 +177,8 @@ Ranks products based on customer ratings.
 Most Reviewed Products
 Identifies products with the highest customer engagement.
 
-Discount vs Revie*s Scatter Plot
-Visualizes the rela*ionship between discounts and reviews.
+Discount vs Reviews Scatter Plot
+Visualizes the relationship between discounts and reviews.
 
 Rating vs Reviews Scatte* Plot
 Shows how ratings influence customer engagement.
@@ -201,12 +201,12 @@ Discount Insights
 - Products with larger discounts generally attracts more customer attention.
 - Some hi*hly discounted products still receive poor ratings.
 
-ustomer Engagement
+Customer Engagement
 - Products with higher review counts are generally better known among customers.
 - Customer reviews provide a useful indicator of product popularity.
 
 Product Performance
-- Several products achieved*excellent ratings while maintainin* competitive pricing.
+- Several products achieved*excellent ratings while maintaining competitive pricing.
 - Certain pr*ducts require quality improvements*despite aggressive discounting.
 
 *--
@@ -214,18 +214,18 @@ Product Performance
 ## Recommendations
 
 1.*Prioritize products with high ratings and strong customer engagement.*2. Review products receiving poor ratings despite large discounts.
-3.*Use discounts strategically rather*than relying solely on price reductions.
+3.*Use discounts strategically rather than relying solely on price reductions.
 4. Focus marketing efforts on products with strong customer feedback.
-5. Continuously monitor cust*mer reviews to identify improvement opportunities.
+5. Continuously monitor customer reviews to identify improvement opportunities.
 
 ---
 
 ## Limitations
 
-- Analysis is limited to the av*ilable dataset.
+- Analysis is limited to the available dataset.
 - Customer demogra*hics were not included.
-- Product *ategories were not analyzed separa*ely.
-- Findings may change as prod*ct prices and reviews are updated.*
+- Product *ategories were not analyzed separately.
+- Findings may change as product prices and reviews are updated.*
 ---
 
 ## File Structure
@@ -248,11 +248,11 @@ jumia-product-performance-dashboard/*│
 
 *--
 
-## How to Open and Use the Wor*book
+## How to Open and Use the Workbook
 
-1. Download the Excel workbo*k.
-2. Open the file using Microsof* Excel 2016 or later.
-3. Navigate *o the Dashboard sheet.
+1. Download the Excel workbook.
+2. Open the file using Microsoft Excel 2016 or later.
+3. Navigate to the Dashboard sheet.
 4. Use slicers and filters to explore the data*
 5. Review charts and KPIs for insights.
 6. Refer to the Analysis sheet for calculations and supporting statistics.
