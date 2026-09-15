@@ -71,7 +71,7 @@ Several data quality issues were addressed before analysis:
 
 ### 3. Derived Columns Created
 
-#### Absolute Discount
+Absolute Discount
 
 ```excel
 =Old Price - Current Price
@@ -88,31 +88,31 @@ Price Category
 Products were classified using Quartiles:
 
 ```excel
-=IF(Current*rice<=Q1,"Low Price",
-IF(CurrentPr*ce<=Q3,"Medium Price",
-"High Price*))
+=IF(Current price<=Q1,"Low Price",
+IF(CurrentPrice<=Q3,"Medium Price",
+"High Pricee))
 ```
 
 Discount Category
 
 ``*excel
-=IF(Discount%<=Q1,"Low Disco*nt",
+=IF(Discount%<=Q1,"Low Discount",
 IF(Discount*<=Q3,"Medium Discount",
 "High Disc*unt"))
 ```
 
-#### Rating Category
+Rating Category
 
-*``excel*=IF*Rating<3,"Poor",
-IF(Rating<=4.5,"A*erage",
+*``excel*=IF (Rating<3,"Poor",
+IF(Rating<=4.5,"Average",
 "Excellent"))
 ```
 
 ---
 
-##*Analysis Performed
+Analysis Performed
 
-### Descriptive Statistics
+Descriptive Statistics
 
 Thefollowing metrics were calculated:
 - Average Price
@@ -123,7 +123,7 @@ Thefollowing metrics were calculated:
 
 orrelation Analysis
 
-Pearson*Correlation was used to determine*relationships between:
+Pearson Correlation was used to determine relationships between:
 
 ```excel
 =CORREL(Discount Range, Reviews Range)
@@ -136,15 +136,15 @@ Pearson*Correlation was used to determine*relationships between:
 *``excel
 =CORREL(Discount Range, Rating Range)
 ```
-*Scatter plots were used to visuali*e these relationships.
+*Scatter plots were used to visualiZe these relationships.
 
-### Top Pr*ducts Analysis
+Top Products Analysis
 
-Ranked tables were*created to identify:
+Ranked tables were created to identify:
 
-- Top 5 high*st-rated products
+- Top 5 highest-rated products
 - Top 5 most-reviewed products
-- Products with larg* discounts
+- Products with large discounts
 - High-discount but low rated products
 
 ---
@@ -169,7 +169,7 @@ Product Distribution by Discount Category
 Displays discount patterns across products.
 
 Rating Distribution
-Highlights product qualit* trends.
+Highlights product quality trends.
 
 op Rated Products
 Ranks products based on customer ratings.
